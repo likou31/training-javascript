@@ -1,3 +1,3 @@
 function isModuloZero(a, b){
-    return (a % b == 0)?true:false;
+    return (b > a)?('ERREUR : a < b'):(a % b == 0);
 }
